@@ -1,9 +1,25 @@
 aid: yipitdata
 name: Yipitdata
-description: 'Yipitdata is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'YipitData is a market-intelligence and alternative-data company that delivers
+  daily insights on consumer behavior, market share, pricing, and company performance
+  to the world''s largest hedge funds, investors, brands, and retailers. Its Proprietary
+  Data Network combines owned-and-operated B2C and B2B panels with 40+ always-on sources
+  (consumer receipts, card transactions, B2B and cloud spend, web-scraped signals),
+  analyzed on a Databricks/Delta Lake lakehouse and delivered through data-sharing,
+  hosted apps, and its AI-powered Insight Agent rather than a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/yipitdata/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69ca4b24fd1fc313c1cfb359/69d27fc4563c98ee80c050c1_3eebef4162c03f2deb24955bb1c5fa02_Frame%202771.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Alternative Data
+- Market Intelligence
+- Data Provider
+- Consumer Insights
+- Financial Data
+- Analytics
+- Investment Research
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/yipitdata-domain-security.yml
 - type: Website
   url: https://yipitdata.com
+- type: Blog
+  url: https://www.yipitdata.com/resources/blog
+- type: GitHubOrganization
+  url: https://github.com/Yipit
+- type: Login
+  url: https://login.portal.yipitdata.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
