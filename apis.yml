@@ -8,6 +8,17 @@ description: 'YipitData is a market-intelligence and alternative-data company th
   analyzed on a Databricks/Delta Lake lakehouse and delivered through data-sharing,
   hosted apps, and its AI-powered Insight Agent rather than a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/yipitdata/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
